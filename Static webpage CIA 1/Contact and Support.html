@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact and Support</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Make the body a flex container */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  margin: 0;
+  background-color: #f4f4f4; /* Optional background color */
+}
+
+/* Container for all sections */
+.container {
+  width: 80%; /* Adjust width as needed */
+  max-width: 1200px; /* Optional: Max width to keep content from stretching too much */
+  padding: 20px;
+}
+
+/* Center content within the container */
+.section {
+  margin: 20px 0; /* Space between sections */
+  padding: 20px;
+  background-color: #fff; /* Background color for sections */
+  border-radius: 8px; /* Rounded corners for aesthetics */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Define the animation */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to content sections */
+.section {
+  animation: slideInLeft 0.5s ease-out;
+}
+
+/* Adjust the delay for each section */
+.contact-form {
+  animation-delay: 0.2s;
+}
+
+.phone {
+  animation-delay: 0.4s;
+}
+
+.email {
+  animation-delay: 0.6s;
+}
+
+.address {
+  animation-delay: 0.8s;
+}
+
+.location {
+  animation-delay: 1s;
+}
+
+.faqs {
+  animation-delay: 1.2s;
+}
+
+.map {
+  animation-delay: 1.4s;
+}
+
+.social-media {
+  animation-delay: 1.6s;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="contact-form section">Contact Form Here</div>
+    <div class="phone section">Phone Number Here</div>
+    <div class="email section">Email Address Here</div>
+    <div class="address section">Physical Address Here</div>
+    <div class="location section">Business Location Here</div>
+    <div class="faqs section">FAQs Here</div>
+    <div class="map section">Map Here</div>
+    <div class="social-media section">Social Media Links Here</div>
+  </div>
+</body>
+</html>

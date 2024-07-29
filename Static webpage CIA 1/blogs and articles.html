@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs & News | Empire Engines</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: rgb(162, 31, 57); /* Change background color to red */
+    color: #fff;
+    padding: 100px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    height: 100%; /* Make card full height of its container */
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.card-img-top {
+    border-bottom: 5px solid #007bff;
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover;
+}
+
+.card-body {
+    flex: 1; /* Allow card body to grow */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    align-self: flex-start; /* Align button to the start of the card body */
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="header text-center text-white py-5">
+        <h1>Blogs & News</h1>
+        <p>Latest updates and articles from Empire Engines</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row">
+            <!-- Blog Post 1 -->
+            <div class="col-md-6 col-lg-4 mb-4 d-flex">
+                <div class="card">
+                    <img src="C:\Users\BharatHarshan\Downloads\ducatiii.jpg" class="card-img-top" alt="New Ducati Panigale V4">
+                    <div class="card-body">
+                        <h5 class="card-title">New Ducati Panigale V4</h5>
+                        <p class="card-text">Discover the features of the new Ducati Panigale V4, a beast on the road with cutting-edge technology and design.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Blog Post 2 -->
+            <div class="col-md-6 col-lg-4 mb-4 d-flex">
+                <div class="card">
+                    <img src="C:\Users\BharatHarshan\Downloads\IconFA22JacketHeader (1).jpg" class="card-img-top" alt="Riding Gear Tips">
+                    <div class="card-body">
+                        <h5 class="card-title">Top 5 Riding Gear Tips</h5>
+                        <p class="card-text">Check out our top 5 tips for choosing the best riding gear to ensure safety and comfort on your rides.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Blog Post 3 -->
+            <div class="col-md-6 col-lg-4 mb-4 d-flex">
+                <div class="card">
+                    <img src="C:\Users\BharatHarshan\Downloads\maintenaceee.jpg" class="card-img-top" alt="Motorcycle Maintenance">
+                    <div class="card-body">
+                        <h5 class="card-title">Essential Motorcycle Maintenance</h5>
+                        <p class="card-text">Learn the essential maintenance tips to keep your motorcycle in top condition and avoid costly repairs.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Blog Post 4 -->
+            <div class="col-md-6 col-lg-4 mb-4 d-flex">
+                <div class="card">
+                    <img src="C:\Users\BharatHarshan\Downloads\expoo.jpg" class="card-img-top" alt="Upcoming Motorcycle Events">
+                    <div class="card-body">
+                        <h5 class="card-title">Upcoming Motorcycle Events</h5>
+                        <p class="card-text">Don't miss out on the upcoming motorcycle events in your area. Get all the details here.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Empire Engines. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
